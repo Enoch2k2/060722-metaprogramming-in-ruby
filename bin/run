@@ -1,0 +1,51 @@
+#!/usr/bin/env ruby
+
+require_relative "../config/environment"
+
+=begin
+  The Hobbit: An Unexpected Journey
+  The Hobbit: The Desolation of Smaug
+  The Hobbit: The Battle Of The Five Armies
+  Lord Of The Rings: The Fellowship of the Ring
+  Lord Of The Rings: The Two Towers
+  Lord Of The Rings: The Return of the King
+
+  Starwars Episode I: The Phantom Menace
+  Starwars Episode II: Attack Of The Clones
+  Starwars Episode III: Revenge Of The Sith
+  Starwars Episode IV: A New Hope
+  Starwars Episode V: Empires Strike Back
+  Starwars Episode VI: Return Of The Jedi
+  Starwars Episode VII: The Force Awakens
+  Starwars Episode VIII: The Last Jedi
+  Starwars Episode IX: The Rise Of Skywalker
+
+  The Matrix
+  The Matrix: Reloaded
+  The Matrix: Revolution
+  The Matrix: Ressurection
+
+  John Wick
+  John Wick II
+  John Wick III
+
+  Constantine
+
+  Avatar
+  Avatar 2: The Way Of The Water
+
+  Space Jam
+  Space Jam 2
+
+  Death at a Funeral
+
+  It
+  The Shining
+
+
+  Fantasy, Action, Sci-Fi, Comedy, Horror
+=end
+
+Movie.new("The Hobbit: An Unexpected Journey", "Fantasy", "A while ago")
+
+binding.pry
