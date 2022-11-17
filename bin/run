@@ -46,6 +46,11 @@ require_relative "../config/environment"
   Fantasy, Action, Sci-Fi, Comedy, Horror
 =end
 
-Movie.new("The Hobbit: An Unexpected Journey", "Fantasy", "A while ago")
+movie = Movie.new({
+  genre: "Fantasy",
+  release_date: "A while ago",
+  title: "The Hobbit: An Unexpected Journey",
+  runtime: "3 hours"
+})
 
 binding.pry

@@ -1,9 +1,10 @@
 class Movie
-  attr_accessor :title, :genre, :release_date
-
-  def initialize(title, genre, release_date)
-    @title = title
-    @genre = genre
-    @release_date = release_date
+  
+  def initialize(hash)
+    hash.each do |key, value|
+      self.class.attr_accessor(key)
+      self.send("#{key}=", value)
+      self.class.define_method("describe_#{key}") { puts "#{key.to_s.capitalize}: #{value}" }
+    end
   end
 end
